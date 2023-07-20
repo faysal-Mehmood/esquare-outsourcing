@@ -42,6 +42,37 @@
 </head>
 
 <body class=" dark-theme ">
+  <!-- top bar -->
+  <div class="header-top-bar top-bar-dark hidden-sm hidden-xs">
+    <div class="container">
+      <div class="left-top-bar left-top-bar-long">
+        <p class="hidden-xs"><i class="bi bi-phone icon"></i><span class="bar-text">UAE:+971 567952590
+            &nbsp; &nbsp;
+          </span></p>
+        <p class="hidden-xs"><i class="bi bi-envelope icon"></i><span class="bar-text">info@aviaanaccounting.com</span>
+        </p>
+        <div class="popover-container visible-xs">
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="UAE:+971 567952590,  &nbsp;  &nbsp; "
+            data-content="info@aviaanaccounting.com">
+            <span class="lnr lnr-phone-handset"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content="">
+            <span class="lnr lnr-map-marker"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content=" Monday to Friday">
+            <span class="lnr lnr lnr-clock"></span>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="right-top-bar">
+          <ul class="social"></ul>
+        </div> -->
+    </div> <!-- End container -->
+  </div>
+  <!-- end top bar -->
   <!--Start Page Header-->
   <header class=" page-header   header-basic" id="page-header">
     <div class="header-search-box">
@@ -57,24 +88,22 @@
     <div class="container">
       <nav class="menu-navbar">
         <div class="header-logo"><a class="logo-link" href="index.html"><img class="logo-img light-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /></a></div>
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /></a></div>
         <div class="links menu-wrapper ">
           <ul class="list-js links-list">
-            <li class="menu-item has-sub-menu"><a class="menu-link   active" href="index.html">home </a>
-
-            </li>
+            <li class="menu-item has-sub-menu"><a class="menu-link   active" href="index.html">home </a></li>
             <li class="menu-item"><a class="menu-link  " href="about-us.html">about us </a></li>
             <li class="menu-item has-sub-menu"><a class="menu-link  " href="services.html">services</a>
               <!-- <ul class="sub-menu ">
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
-                    href="services.html">services</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
-                    href="service-single.html">service single</a></li>
-              </ul> -->
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
+                      href="services.html">services</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
+                      href="service-single.html">service single</a></li>
+                </ul> -->
             </li>
-            <li class="menu-item has-sub-menu"><a class="menu-link  " href="our-team.html">Our Team </a>
-            </li>
+            <li class="menu-item has-sub-menu"><a class="menu-link  " href="products.html">products</a></li>
+            <li class="menu-item has-sub-menu"><a class="menu-link  " href="our-team.html">Our Team </a></li>
             <li class="menu-item"><a class="menu-link " href="contact-us.html">contact us </a></li>
             <li class="menu-item"><a class="menu-link d-block d-sm-none " href="contact-us.html">Get Started</a></li>
           </ul>
@@ -85,12 +114,12 @@
           <div class="control  menu-toggler"><span></span><span></span><span></span></div>
           <!--search Icon button-->
           <!-- <div class="control header-search-btn"><i class="bi bi-search icon"></i></div> -->
-          <div><a class="getstarted scrollto " href="#about">Get Started</a></div>
+          <div><a class="getstarted scrollto sm-none d-md-block" href="#about">Get Started</a></div>
           <!--Dark/Light mode button-->
           <!-- <div class="mode-switcher ">
-            <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
-            <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
-          </div> -->
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div> -->
           <!--mini shoping cart-->
         </div>
       </nav>
@@ -312,22 +341,24 @@
             <div class="sidebar-pane">
               <h2 class="sidebar-title">list of services</h2>
               <ul class="list">
-                <li class="list-item active"><i class="flaticon-web-development font-icon"></i><a href="#0">
+                <li class="list-item active"><i class="flaticon-web-development font-icon"></i><a
+                    href="accounting-services.html">
                     Accounting & Bookkeeping <i class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-nanotechnology font-icon"></i><a href="#0"> Controller-level
-                    Services <i class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-web-domain font-icon"></i><a href="#0"> CFO Support Services <i
-                      class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-profile font-icon"></i><a href="#0"> Integrated Accounting
+
+                <li class="list-item"><i class="flaticon-web-domain font-icon"></i><a href="cfo-services.html"> CFO
+                    Support Services <i class="bi bi-arrow-right icon "></i></a></li>
+                <li class="list-item"><i class="flaticon-profile font-icon"></i><a href="integrated-act-servicses.html">
+                    Integrated Accounting
                     System<i class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-search font-icon"></i><a href="#0"> Business Analytics<i
+                <li class="list-item"><i class="flaticon-search font-icon"></i><a
+                    href="business-analytics-services.html"> Business Analytics<i
                       class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="#0">Tax Preparation Services<i
-                      class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="#0">Payroll Services<i
-                      class="bi bi-arrow-right icon "></i></a></li>
-                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="#0">Recruitment Services<i
-                      class="bi bi-arrow-right icon "></i></a></li>
+                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="tax-services.html">Tax
+                    Preparation Services<i class="bi bi-arrow-right icon "></i></a></li>
+                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="payroll-services.html">Payroll
+                    Services<i class="bi bi-arrow-right icon "></i></a></li>
+                <li class="list-item"><i class="flaticon-strategy font-icon"></i><a href="eor-services.html">EOR
+                    Services<i class="bi bi-arrow-right icon "></i></a></li>
               </ul>
             </div>
             <div class="sidebar-pane">

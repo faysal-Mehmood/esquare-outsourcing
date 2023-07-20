@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from amincodes.com/html/flex-it/portfolio-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:20:11 GMT -->
+<!-- Mirrored from amincodes.com/html/flex-it/portfolio-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:20:12 GMT -->
 
 <head>
   <meta charset="UTF-8">
@@ -38,10 +38,41 @@
 
   <!-- main-LTR -->
   <link rel="stylesheet" href="css/main-LTR.css">
-  <title> flex-IT | Portfolio</title>
+  <title> Product | Esquare</title>
 </head>
 
 <body class=" dark-theme ">
+  <!-- top bar -->
+  <div class="header-top-bar top-bar-dark hidden-sm hidden-xs">
+    <div class="container">
+      <div class="left-top-bar left-top-bar-long">
+        <p class="hidden-xs"><i class="bi bi-phone icon"></i><span class="bar-text">UAE:+971 567952590
+            &nbsp; &nbsp;
+          </span></p>
+        <p class="hidden-xs"><i class="bi bi-envelope icon"></i><span class="bar-text">info@aviaanaccounting.com</span>
+        </p>
+        <div class="popover-container visible-xs">
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="UAE:+971 567952590,  &nbsp;  &nbsp; "
+            data-content="info@aviaanaccounting.com">
+            <span class="lnr lnr-phone-handset"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content="">
+            <span class="lnr lnr-map-marker"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content=" Monday to Friday">
+            <span class="lnr lnr lnr-clock"></span>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="right-top-bar">
+          <ul class="social"></ul>
+        </div> -->
+    </div> <!-- End container -->
+  </div>
+  <!-- end top bar -->
   <!--Start Page Header-->
   <header class=" page-header   header-basic" id="page-header">
     <div class="header-search-box">
@@ -57,19 +88,19 @@
     <div class="container">
       <nav class="menu-navbar">
         <div class="header-logo"><a class="logo-link" href="index.html"><img class="logo-img light-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /></a></div>
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /></a></div>
         <div class="links menu-wrapper ">
           <ul class="list-js links-list">
             <li class="menu-item has-sub-menu"><a class="menu-link   active" href="index.html">home </a></li>
             <li class="menu-item"><a class="menu-link  " href="about-us.html">about us </a></li>
             <li class="menu-item has-sub-menu"><a class="menu-link  " href="services.html">services</a>
               <!-- <ul class="sub-menu ">
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
-                    href="services.html">services</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
-                    href="service-single.html">service single</a></li>
-              </ul> -->
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
+                      href="services.html">services</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  "
+                      href="service-single.html">service single</a></li>
+                </ul> -->
             </li>
             <li class="menu-item has-sub-menu"><a class="menu-link  " href="products.html">products</a></li>
             <li class="menu-item has-sub-menu"><a class="menu-link  " href="our-team.html">Our Team </a></li>
@@ -86,9 +117,9 @@
           <div><a class="getstarted scrollto sm-none d-md-block" href="#about">Get Started</a></div>
           <!--Dark/Light mode button-->
           <!-- <div class="mode-switcher ">
-            <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
-            <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
-          </div> -->
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div> -->
           <!--mini shoping cart-->
         </div>
       </nav>
@@ -102,91 +133,291 @@
     <div class="overlay-color" data-bg-opacity=".75"></div>
     <div class="container">
       <div class="hero-text-area centerd">
-        <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Products</h1>
+        <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Our Product</h1>
         <nav aria-label="breadcrumb ">
           <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
             <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>home</a>
             </li>
-            <li class="breadcrumb-item active">product</li>
+            <li class="breadcrumb-item active">Product</li>
           </ul>
         </nav>
       </div>
     </div>
   </section>
   <!-- End inner Page hero-->
-  <!-- Start  portfolio Section-->
-  <section class="portfolio portfolio-blocks mega-section   " id="portfolio">
+  <!-- Start Project Details Area-->
+  <section class="portfolio-single mega-section">
     <div class="container">
-      <div class="sec-heading  ">
-        <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">projects</span>
-          <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Awesome <span class='hollow-text'>Projects</span>
-          </h2>
+      <div class="featured-area">
+        <div class="row">
+          <div class="col-12  mx-auto">
+            <div class="project-featured-img"><img class="featured-img " loading="lazy"
+                src="assets/images/portfolio/featured-image.jpg" alt="featuerd image"></div>
+          </div>
         </div>
-        <div class=" cta-area   wow fadeInUp" data-wow-delay=".8s"><a class="cta-btn btn-solid    "
-            href="portfolio-grid.html">see more <i class="bi bi-arrow-right icon "></i></a></div>
       </div>
-      <div class="portfolio-wrapper  ">
-        <!--a menu of links to show the photos users needs   -->
-        <ul class="portfolio-btn-list wow fadeInUp" data-wow-delay=".2s">
-          <li class="portfolio-btn active " data-filter="*">All</li>
-          <li class="portfolio-btn        " data-filter=".mobile">mobile apps</li>
-          <li class="portfolio-btn        " data-filter=".web">cloud</li>
-          <li class="portfolio-btn        " data-filter=".data">data analaysis</li>
-          <li class="portfolio-btn        " data-filter=".hosting">hosting</li>
-        </ul>
-        <div class="portfolio-group wow fadeIn" data-wow-delay=".4s">
-          <div class="row ">
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile ">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/1.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">mobile apps</h3><i class="bi bi-arrow-right icon "></i>
+      <div class="main-area">
+        <div class="row">
+          <div class="col-12 col-lg-9  ">
+            <h5 class="sub-heading ">Introducing Our Revolutionary HRIS Software Solution</h5>
+            <p class="project-text">
+              Are you looking to transform your HR operations and optimize your human resource management? Look no
+              further than e-square cutting-edge Core HRMS (Human Resource Management System). Our comprehensive
+              software solution is designed to simplify your HR processes, our HRMS empowers organizations to
+              efficiently manage employee data, streamline workflows and enhance overall productivity.
+            </p>
+            <p class="project-text">
+
+
+            </p>
+            <div class="project-video mega-section ">
+              <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-4.jpg"
+                data-bg-opacity="1"></div>
+              <div class="overlay-color " data-bg-opacity=".25"></div>
+              <div class="video-wrapper">
+                <div class="play-btn-col-dir"><a class="video-link"
+                    href="https://www.youtube.com/watch?v=QI4_dGvZ5yE&amp;ab_channel=JUtah" role="button" title="play"
+                    data-fancybox="data-fancybox">
+                    <div class="play-video-btn">
+                      <div class="play-btn"> <i class="fas fa-play icon"></i></div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+            <h5 class="sub-heading ">The Key to Efficient HR Management</h5>
+            <p class="project-text">
+              In today's digital era, HRIS/HRMS (Human Resource Management System) has become a crucial tool for
+              businesses of all sizes. CoreHRMS is an integrated software solution that integrates various HR functions
+              into a unified platform. It provides a centralized database for managing employee information, automates
+              time-consuming administrative tasks and enables data-driven decision-making.
+            </p>
+
+            <div class="row align-items-center py-5">
+              <div class="col-12 col-lg-6">
+                <h5 class="sub-heading ">Adavantage of Core HRMS</h5>
+                <ul class="list steps">
+                  <li class="list-item step"><i class="bi bi-check2 icon"></i><span>Enhanced Efficiency and Productivity
+                    </span></li>
+                  <li class="list-item step"><i class="bi bi-check2 icon"></i><span>Centralized Employee Database
+                    </span></li>
+                  <li class="list-item step"><i class="bi bi-check2 icon"></i><span>Improved Data Accuracy
+                    </span></li>
+                  <li class="list-item step"><i class="bi bi-check2 icon"></i><span>Streamlined Recruitment and
+                      Onboarding
+                    </span></li>
+                  <li class="list-item step"><i class="bi bi-check2 icon"></i><span>Efficient Leave and Attendance
+                      Management
+                    </span></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="seal-img "><img class="img-fluid" src="assets/images/portfolio/seal.png" alt="seal image"
+                    loading="lazy"></div>
+              </div>
+            </div>
+            <h5 class="sub-heading ">CoreHRMS Integration</h5>
+            <p class="project-text">
+              Our HRIS seamlessly integrates with our HRMS (Human Resource Management System), providing a complete
+              suite of HR tools. The Core HRMS encompasses a range of modules, including:
+            </p>
+            <h3>
+              1. Employee Management
+            </h3>
+            <p class="project-text">
+              In order to have Efficient and Well-organized Employee management, it is essential to have comprehensive
+              Employee Management information system. Our HRMS software solution offers comprehensive Employee
+              Management Module to streamline and automate key aspects of HR operations, ensuring smooth and productive
+              employee management.
+
+            </p>
+            <h3>
+              2. Time & Attendance Management
+            </h3>
+            <p class="project-text">
+              Accurate Time and Attendance Management is vital for maintaining workforce productivity. Our HRMS system
+              offers advanced features to automate time tracking, monitor attendance and generate comprehensive reports.
+
+            </p>
+            <h3>
+              3. Compensation & Benefits
+            </h3>
+            <p class="project-text">
+              Managing employee compensation and benefits can be complex, but our HRIS solution simplifies the process.
+              With our system, you can easily define tax structure, statutory requirements, manage allowances and
+              deductions and automate payroll calculations. Ensure accuracy and compliance while effectively managing
+              employee benefits such as health insurance, retirement plans and incentives.
+            </p>
+            <h3>
+              4. Payroll Management
+            </h3>
+            <p class="project-text">
+              Automate payroll calculations, tax deductions and generate pay slips with ease.
+
+            </p>
+            <h3>
+              5. Employee tax & statutory:
+            </h3>
+            <p class="project-text">
+              Staying compliant with tax regulations and statutory requirements is essential for every organization. Our
+              HRMS system takes the hassle out of employee tax management and statutory compliance.
+            </p>
+            <h3>
+              6. Leave Management
+            </h3>
+            <p class="project-text">
+              Leave management is a critical aspect of employee satisfaction and work-life balance. Simplify the process
+              of applying for leave, monitor leave trends, and maintain accurate records to ensure a smooth and
+              transparent leave management system.
+            </p>
+            <h3>
+              7. Final Settlement
+            </h3>
+            <p class="project-text">
+              When an employee leaves the organization, final settlement procedures can often be time-consuming and
+              complex. Our HRMS simplifies this process, automating the calculation of Provident fund, Gratuity, Leave
+              encashment, Pending dues, other benefits and deductions.
+
+            </p>
+            <h3>
+              8. Performance Management
+            </h3>
+            <p class="project-text">
+              Set goals, track employee performance and facilitate performance reviews to enhance productivity and
+              employee engagement.
+            </p>
+            <h3>
+              9. Employee Self-Care
+            </h3>
+            <p class="project-text">
+              Empower your employees to access and update their information, submit leave requests and view Pay slips
+              through a user-friendly self-care portal.
+
+            </p>
+            <h3>
+              10. Reports Management
+            </h3>
+            <p class="project-text">
+              An Advance automated reporting engine that can easily be configured to email daily, weekly and monthly
+              reports by defining a specific date and time.
+
+            </p>
+            <h5 class="sub-heading ">project results</h5>
+            <p class="project-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Ullam unde, alias deserunt nemo perspiciatis cum delectus
+              deleniti repudiandae aliquam exercitationem veniam ipsam deleniti repudiandae aliqua
+
+            </p>
+            <div class="portfolio  portfolio-slider">
+              <!--Swiper-->
+              <div class="swiper-container wow fadeIn" data-wow-delay=".5s">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/1.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/1.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">mobile apps</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/2.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/2.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">cloud</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/3.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/3.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">data analaysis</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/4.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/4.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">hosting</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/5.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/5.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">SEO</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item   "><a class="portfolio-img-link" href="assets/images/portfolio/6.jpg"
+                        data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy"
+                          src="assets/images/portfolio/6.jpg" alt="portfolio item photo" /></a>
+                      <div class="item-info ">
+                        <h3 class="item-title">other category</h3><i class="bi bi-eye icon "></i>
+                      </div>
+                    </div>
+                    <!--navigation buttons-->
+                  </div>
+                </div>
+                <div class="swiper-button-prev">
+                  <div class="left-arrow"><i class="bi bi-chevron-left icon "></i>
+                  </div>
+                </div>
+                <div class="swiper-button-next">
+                  <div class="right-arrow"><i class="bi bi-chevron-right icon "></i>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item web  ">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/2.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">cloud</h3><i class="bi bi-arrow-right icon "></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item data ">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/3.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">data analaysis</h3><i class="bi bi-arrow-right icon "></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile ">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/4.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">hosting</h3><i class="bi bi-arrow-right icon "></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item hosting ">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/5.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">SEO</h3><i class="bi bi-arrow-right icon "></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile">
-              <div class="item   "><a class="portfolio-img-link" href="portfolio-single.html"><img
-                    class="portfolio-img   img-fluid " loading="lazy" src="assets/images/portfolio/6.jpg"
-                    alt="portfolio item photo" /></a>
-                <div class="item-info ">
-                  <h3 class="item-title">other category</h3><i class="bi bi-arrow-right icon "></i>
+          </div>
+          <div class="col-12 col-lg-3  ">
+            <div class="info-area">
+              <div class="project-info">
+                <div class="row">
+                  <div class="col-6 col-lg-12">
+                    <div class="info">
+                      <h5 class="title"> client</h5>
+                      <p class="detail">amin themes</p><i class="fas fa-address-card icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-12">
+                    <div class="info">
+                      <h5 class="title">category</h5>
+                      <p class="detail">Web Development</p><i class="fas fa-tasks icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-12">
+                    <div class="info">
+                      <h5 class="title">date</h5>
+                      <p class="detail">30/1/2022</p><i class="fas fa-calendar-alt icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-12">
+                    <div class="info">
+                      <h5 class="title">share</h5>
+                      <div class="sc-wrapper dir-row sc-size-40">
+                        <ul class="sc-list">
+                          <li class="sc-item " title="Facebook"><a class="sc-link" href="#0"
+                              title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                          <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i
+                                class="fab fa-youtube sc-icon"></i></a></li>
+                          <li class="sc-item " title="instagram"><a class="sc-link" href="#0"
+                              title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                          <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i
+                                class="fab fa-twitter sc-icon"></i></a></li>
+                        </ul>
+                      </div><i class="fas fa-share-alt icon"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -195,150 +426,7 @@
       </div>
     </div>
   </section>
-  <!-- End  portfolio Section-->
-  <!-- Start  testimonials Section-->
-  <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials-img-bg">
-    <div class="overlay-photo-image-bg parallax " data-bg-img="assets/images/sections-bg-images/1.jpg"
-      data-bg-opacity=".25"> </div>
-    <div class="container">
-      <div class="sec-heading  centered ">
-        <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">testimonials</span>
-          <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">customers <span class='hollow-text'>testmonials</span>
-          </h2>
-        </div>
-      </div>
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-10  mx-auto">
-          <div class="swiper-container  wow fadeInUp  " data-wow-delay="0.2s">
-            <div class="swiper-wrapper">
-              <!--First Slide-->
-              <div class="swiper-slide">
-                <div class="testmonial-card d-flex align-items-center justify-content-center">
-                  <div class="testimonial-content">
-                    <div class="customer-img "><img class="img-fluid " loading="lazy"
-                        src="assets/images/testimonials/1.png" alt="First Slide "></div>
-                    <div class="customer-testimonial">
-                      <div class="content">
-                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi
-                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.</p>
-                      </div>
-                    </div>
-                    <div class="customer-info ">
-                      <div class="customer-details">
-                        <p class="customer-name">Yusuf amin</p>
-                        <p class="customer-role">founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--Second Slide-->
-              <div class="swiper-slide">
-                <div class="testmonial-card d-flex align-items-center justify-content-center">
-                  <div class="testimonial-content">
-                    <div class="customer-img "><img class="img-fluid " loading="lazy"
-                        src="assets/images/testimonials/2.png" alt="First Slide "></div>
-                    <div class="customer-testimonial">
-                      <div class="content">
-                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi
-                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.</p>
-                      </div>
-                    </div>
-                    <div class="customer-info ">
-                      <div class="customer-details">
-                        <p class="customer-name">fouad osman</p>
-                        <p class="customer-role">officer</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--third Slide-->
-              <div class="swiper-slide">
-                <div class="testmonial-card d-flex align-items-center justify-content-center">
-                  <div class="testimonial-content">
-                    <div class="customer-img "><img class="img-fluid " loading="lazy"
-                        src="assets/images/testimonials/3.png" alt="First Slide "></div>
-                    <div class="customer-testimonial">
-                      <div class="content">
-                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi
-                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel. </p>
-                      </div>
-                    </div>
-                    <div class="customer-info ">
-                      <div class="customer-details">
-                        <p class="customer-name">fairouz mhmd</p>
-                        <p class="customer-role">manager</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--navigation buttons-->
-            <div class="swiper-button-prev">
-              <div class="left-arrow"><i class="bi bi-chevron-left icon "></i>
-              </div>
-            </div>
-            <div class="swiper-button-next">
-              <div class="right-arrow"><i class="bi bi-chevron-right icon "></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End  testimonials Section-->
-  <!-- Start  our-clients Section-->
-  <section class="our-clients  bg-main elf-section" id="our-clients">
-    <div class="container-fluid">
-      <div class="sec-heading d-none ">
-        <h4 class="title ">our great clients</h4>
-      </div>
-      <div class=" clients-logos d-flex align-items-center justify-content-around flex-wrap">
-        <!--Swiper-->
-        <div class="swiper-container">
-          <div class="swiper-wrapper clients-logo-wrapper wow fadeIn " data-wow-delay=".02s">
-            <!-- every client logo is located inside div  with clss name "swiper-slide ".
-              if you want to add more logos please keep the strcture of the swiper-slide as showen below
-              
-              
-              -->
-            <div class="swiper-slide">
-              <div class="client-logo  "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/1-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/2-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/3-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/4-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/5-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/6-white.png" alt=" "></a></div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy"
-                    src="assets/images/clients-logos/7-white.png" alt=" "></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End  our-clients Section-->
+  <!-- End  Project Details Area-->
   <!-- Start  take-action Section-->
   <section class="take-action elf-section has-dark-bg" id="take-action">
     <div class="overlay-photo-image-bg  " data-bg-img="assets/images/sections-bg-images/2.jpg" data-bg-opacity=".25">
@@ -360,6 +448,7 @@
     </div>
   </section>
   <!-- End  take-action Section-->
+  <!-- Start  page-footer Section-->
   <footer class="page-footer dark-color-footer" id="page-footer">
     <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg"
       data-bg-opacity=".25"></div>
@@ -367,7 +456,7 @@
     <div class="container">
       <div class="row footer-cols">
         <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy"
-            src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" />
+            src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" />
           <div class="footer-col-content-wrapper">
             <p class="footer-text-about-us ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -460,6 +549,7 @@
     </div>
 
   </footer>
+  <!-- End  page-footer Section-->
 
   <!-- Start back-to-top Component-->
   <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
@@ -475,19 +565,16 @@
   <!--     fancybox     -->
   <script src="js/vendors/jquery.fancybox.min.js"></script>
 
-  <!--     wow     -->
-  <script src="js/vendors/wow.min.js"></script>
-
-  <!--     isotope     -->
-  <script src="js/vendors/isotope-min.js"></script>
-
   <!--     swiper     -->
   <script src="js/vendors/swiper-bundle.min.js"></script>
+
+  <!--     wow     -->
+  <script src="js/vendors/wow.min.js"></script>
 
   <!--     main     -->
   <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from amincodes.com/html/flex-it/portfolio-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:20:11 GMT -->
+<!-- Mirrored from amincodes.com/html/flex-it/portfolio-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 10:20:14 GMT -->
 
 </html>

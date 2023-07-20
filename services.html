@@ -43,6 +43,37 @@
 </head>
 
 <body class=" dark-theme ">
+  <!-- top bar -->
+  <div class="header-top-bar top-bar-dark hidden-sm hidden-xs">
+    <div class="container">
+      <div class="left-top-bar left-top-bar-long">
+        <p class="hidden-xs"><i class="bi bi-phone icon"></i><span class="bar-text">UAE:+971 567952590
+            &nbsp; &nbsp;
+          </span></p>
+        <p class="hidden-xs"><i class="bi bi-envelope icon"></i><span class="bar-text">info@aviaanaccounting.com</span>
+        </p>
+        <div class="popover-container visible-xs">
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="UAE:+971 567952590,  &nbsp;  &nbsp; "
+            data-content="info@aviaanaccounting.com">
+            <span class="lnr lnr-phone-handset"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content="">
+            <span class="lnr lnr-map-marker"></span>
+          </button>
+          <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover"
+            data-placement="bottom" title="" data-content=" Monday to Friday">
+            <span class="lnr lnr lnr-clock"></span>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="right-top-bar">
+          <ul class="social"></ul>
+        </div> -->
+    </div> <!-- End container -->
+  </div>
+  <!-- end top bar -->
   <!--Start Page Header-->
   <header class=" page-header   header-basic" id="page-header">
     <div class="header-search-box">
@@ -58,13 +89,11 @@
     <div class="container">
       <nav class="menu-navbar">
         <div class="header-logo"><a class="logo-link" href="index.html"><img class="logo-img light-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
-              src="assets/images/logo/ESQAURE_logo_1.png" alt="logo" /></a></div>
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /><img class="logo-img  dark-logo" loading="lazy"
+              src="assets/images/logo/ESQAURE_logo_1.svg" alt="logo" /></a></div>
         <div class="links menu-wrapper ">
           <ul class="list-js links-list">
-            <li class="menu-item has-sub-menu"><a class="menu-link   active" href="index.html">home </a>
-
-            </li>
+            <li class="menu-item has-sub-menu"><a class="menu-link   active" href="index.html">home </a></li>
             <li class="menu-item"><a class="menu-link  " href="about-us.html">about us </a></li>
             <li class="menu-item has-sub-menu"><a class="menu-link  " href="services.html">services</a>
               <!-- <ul class="sub-menu ">
@@ -74,8 +103,8 @@
                     href="service-single.html">service single</a></li>
               </ul> -->
             </li>
-            <li class="menu-item has-sub-menu"><a class="menu-link  " href="our-team.html">Our Team </a>
-            </li>
+            <li class="menu-item has-sub-menu"><a class="menu-link  " href="products.html">products</a></li>
+            <li class="menu-item has-sub-menu"><a class="menu-link  " href="our-team.html">Our Team </a></li>
             <li class="menu-item"><a class="menu-link " href="contact-us.html">contact us </a></li>
             <li class="menu-item"><a class="menu-link d-block d-sm-none " href="contact-us.html">Get Started</a></li>
           </ul>
@@ -86,7 +115,7 @@
           <div class="control  menu-toggler"><span></span><span></span><span></span></div>
           <!--search Icon button-->
           <!-- <div class="control header-search-btn"><i class="bi bi-search icon"></i></div> -->
-          <div><a class="getstarted scrollto " href="#about">Get Started</a></div>
+          <div><a class="getstarted scrollto sm-none d-md-block" href="#about">Get Started</a></div>
           <!--Dark/Light mode button-->
           <!-- <div class="mode-switcher ">
             <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
@@ -125,7 +154,15 @@
 
         <h2>Our Services</h2>
         <p class="text-center mb-5">
-          A winning strategy and a great idea are not enough to run a successful company. It takes proper financial management and accounting expertise to keep your operations running smoothly. However, not all companies have the resources or know-how to manage their accounting needs in-house. That's where BPO (Business Process Outsourcing) companies come in. By outsourcing your services, you can focus on growing your business while leaving the financial details to the experts. At e-square, we offer a wide range of BPO services, including Accounting & Bookkeeping, Payroll and Recruitment services, designed to help you manage your OPERATIONS  finances with ease. Our team of experienced HR & Accounting professionals accountants has the expertise and knowledge needed to help you with everything from bookkeeping and payroll to tax planning and financial analysis.</p>
+          A winning strategy and a great idea are not enough to run a successful company. It takes proper financial
+          management and accounting expertise to keep your operations running smoothly. However, not all companies have
+          the resources or know-how to manage their accounting needs in-house. That's where BPO (Business Process
+          Outsourcing) companies come in. By outsourcing your services, you can focus on growing your business while
+          leaving the financial details to the experts. At e-square, we offer a wide range of BPO services, including
+          Accounting & Bookkeeping, Payroll and Recruitment services, designed to help you manage your OPERATIONS
+          finances with ease. Our team of experienced HR & Accounting professionals accountants has the expertise and
+          knowledge needed to help you with everything from bookkeeping and payroll to tax planning and financial
+          analysis.</p>
       </div>
 
       <div class="row gy-4">
@@ -135,7 +172,8 @@
             <div class="card-img">
               <img src="assets/images/services/unnamed.jpg" alt="" class="img-fluid">
             </div>
-            <h3><a href="accounting-services.html" class="stretched-link">Professional Accounting & Bookkeeping Services</a></h3>
+            <h3><a href="accounting-services.html" class="stretched-link">Professional Accounting & Bookkeeping
+                Services</a></h3>
             <p class="card-para">One of our most popular services is Accounting & Bookkeeping. We understand that
               maintaining company
               finances can be difficult, especially for small businesses</p>
@@ -202,7 +240,17 @@
               their financial and operational data. Businesses may make better decisions.</p>
           </div>
         </div><!-- End Card Item -->
-
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/images/services/unnamed_2.jpg" alt="" class="img-fluid">
+            </div>
+            <h3><a href="tax-services.html" class="stretched-link">EOR Services</a></h3>
+            <p class="card-para"> E-square is the leading global Employer of Record services provider. we specialize in
+              managing all
+              aspects of global employment.</p>
+          </div>
+        </div><!-- End Card Item -->
       </div>
 
     </div>
