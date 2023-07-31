@@ -1823,13 +1823,12 @@ body.rounded-btns .read-more {
     left: -100%;
     width: 100%;
     height: 100%;
-    top: 150px;
+    top: 142px;
     margin: 0;
     transition: all 0.5s ease-in-out 0s;
   }
   .is-sticky .menu-wrapper {
-    top: 98px;
-   
+    top: 92px;
   }
 }
 .header-basic .menu-wrapper.show {
