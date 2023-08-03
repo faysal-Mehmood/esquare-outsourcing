@@ -184,7 +184,7 @@ a:hover {
 }
 
 .about-us-banner-hero {
-  background: url('../assets/img/About-us-banner.jpg');
+  background-image: url(../assets/img/About-us-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
