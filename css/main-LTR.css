@@ -183,6 +183,13 @@ a:hover {
   }
 }
 
+.about-us-banner-hero {
+  background: url('../assets/img/About-us-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .particles-js {
   position: absolute;
   width: 100%;
