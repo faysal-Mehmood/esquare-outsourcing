@@ -1741,8 +1741,11 @@ body.rounded-btns .read-more {
   background-color: var(--clr-dark-blue);
   top: 0px;
 }
-.is-sticky.header-basic .menu-link {
+/* .is-sticky.header-basic .menu-link {
   color: var(--clr-white) !important;
+} */
+.is-sticky.header-basic .menu-link:active {
+  color: var(--clr-main) !important;
 }
 .is-sticky.header-basic .menu-link::before {
   background-color: var(--clr-white) !important;
