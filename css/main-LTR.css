@@ -184,20 +184,20 @@ a:hover {
 }
 
 .about-us-banner-hero {
-  background-image: url(../assets/img/About-us-banner.jpg);
+  background-image: url(../assets/img/About-us-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .product-page-banner {
-  background-image: url(../assets/img/product-banner.jpg);
+  background-image: url(../assets/img/Our-product-banner-image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.contact-us-banner   {
-  background-image: url(../assets/img/contact-us.jpg);
+.contact-us-banner {
+  background-image: url(../assets/img/contact-us.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
